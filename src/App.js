@@ -1,13 +1,11 @@
 import React from "react";
 
-import Form from "./Components/Form";
+import "./global.css";
+
+import Routes from "./routes";
 
 function App() {
-  return (
-    <div>
-      <Form />
-    </div>
-  );
+  return <Routes />;
 }
 
 export default App;
